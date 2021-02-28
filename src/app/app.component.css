@@ -1,0 +1,37 @@
+input {
+  border: none;
+  border-bottom: 1px solid #ced4da;
+}
+
+.top {
+  height: 20vh;
+  background-color: green;
+}
+
+.bottom {
+  height: 80vh;
+  background-color: lightgreen;
+}
+
+.body-wrapper {
+  position: absolute;
+  top: 10vh;
+  left: 50%;
+}
+
+.body {
+  border: 1px solid #ced4da;
+  padding: 20px 20px;
+  width: 70vw;
+  position: relative;
+  background-color: white;
+  left: -50%;
+}
+
+.body div {
+  margin: 50px 0px;
+}
+
+.body input {
+  margin-top: 10px;
+}
